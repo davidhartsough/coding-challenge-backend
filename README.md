@@ -20,19 +20,17 @@ curl -X POST \
 
 1. [Installation](#installation)
 2. [Implementation](#implementation)
+3. [Submission](#submission)
 
-## Installation
+### Installation
+
+Do NOT fork this repo.
 
 1. Clone this repo (and `cd` into it)
 2. [Install `yarn`](https://classic.yarnpkg.com/en/docs/install)
 3. Run `yarn`
 
-### Linting/Formatting
-
-- [ESLint](https://eslint.org/) - linting JS
-- [Prettier](https://prettier.io/) - formatting JS and CSS
-
-## Implementation
+### Implementation
 
 (in any order you prefer)
 
@@ -40,6 +38,18 @@ curl -X POST \
 - In `src/get-metadata.ts`, follow the instructions on lines 12-18 and 23.
 
 For help, use the Jest tests in `src/get-metadata.test.ts`.
+
+### Submission
+
+Once again, do NOT fork this repo.
+
+When you're done and ready to submit your code in the application, follow these steps to push your code to your own GitHub repo:
+
+1. Create a new repository on GitHub.
+2. Remove the remote origin with: `git remote rm origin`
+3. Add the remote origin of your new repo with: `git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git`
+4. Push your code to your new repo with: `git push -u origin master` (or `main` or whatever your preferred branch name is)
+5. Copy the URL to your repo and add it to the application (https://github.com/YOUR-USERNAME/YOUR-REPO-NAME). (If you wish to keep your new repo private, you must add me, `davidhartsough`, as a collaborator: https://github.com/YOUR-USERNAME/YOUR-REPO-NAME/settings/access)
 
 ## Available Scripts
 
@@ -52,3 +62,8 @@ Runs the server at [http://localhost:5000](http://localhost:5000)
 ### `yarn test`
 
 Runs the Jest tests.
+
+## Linting/Formatting
+
+- [ESLint](https://eslint.org/) - linting
+- [Prettier](https://prettier.io/) - formatting
