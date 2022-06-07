@@ -2,7 +2,26 @@
   "name": "coding-challenge-backend",
   "version": "0.1.0",
   "main": "server.js",
+  "description": "The backend API for the coding challenge",
   "license": "MIT",
+  "author": "David Hartsough <hartsoughdavid@gmail.com> (https://davidhartsough.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidhartsough/coding-challenge-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidhartsough/coding-challenge-backend/issues"
+  },
+  "homepage": "https://github.com/davidhartsough/coding-challenge-backend#readme",
+  "keywords": [
+    "coding",
+    "challenge",
+    "backend",
+    "api",
+    "node",
+    "nodejs",
+    "typescript"
+  ],
   "devDependencies": {
     "@types/jest": "^28.1.0",
     "@types/node": "^17.0.38",
