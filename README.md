@@ -1,6 +1,6 @@
 # Coding Challenge Backend
 
-Your challenge is to create a Node.js server to serve as the (backend) API for the frontend part of this coding challenge.
+Your challenge is to create a Node.js server to serve as the (backend) API for [the frontend](https://github.com/davidhartsough/coding-challenge-frontend) part of this coding challenge.
 
 In the end, you'll be able to send a POST request to this server with a JSON payload containing a URL and it will return important and relevant metadata from the site at the given URL, including the site name, title, description, keywords, and author.
 
@@ -27,8 +27,7 @@ curl -X POST \
 Do NOT fork this repo.
 
 1. Clone this repo (and `cd` into it)
-2. [Install `yarn`](https://classic.yarnpkg.com/en/docs/install)
-3. Run `yarn`
+2. Install the dependencies using [yarn](https://classic.yarnpkg.com/lang/en/) or npm. (I used yarn [hence the `yarn.lock` file].)
 
 ### Implementation
 
@@ -51,7 +50,7 @@ When you're done and ready to submit your code in the application, follow these 
 4. Push your code to your new repo with: `git push -u origin master` (or `main` or whatever your preferred branch name is)
 5. Copy the URL to your repo and add it to the application (https://github.com/YOUR-USERNAME/YOUR-REPO-NAME). (If you wish to keep your new repo private, you must add me, `davidhartsough`, as a collaborator: https://github.com/YOUR-USERNAME/YOUR-REPO-NAME/settings/access)
 
-## Available Scripts
+## Scripts
 
 In the root project directory, you can run:
 
@@ -62,6 +61,11 @@ Runs the server at [http://localhost:5000](http://localhost:5000)
 ### `yarn test`
 
 Runs the Jest tests.
+
+## Language
+
+- [Node.js](https://nodejs.dev/learn)
+- [TypeScript](https://www.typescriptlang.org/docs/)
 
 ## Linting/Formatting
 
