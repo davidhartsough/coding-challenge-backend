@@ -52,7 +52,7 @@ const htmlEx1 = `
     <meta name="DOI" content="10.1007/s10902-022-00526-1">
     <meta name="citation_doi" content="10.1007/s10902-022-00526-1">
     <meta name="citation_springer_api_url" content="http://api.springer.com/xmldata/jats?q=doi:10.1007/s10902-022-00526-1&amp;api_key=">
-    <meta name="description" content="Prosocial behaviors benefit others, but what benefits do they hold for those who enact them? Prosociality can enhance the actor's well-being, yet whe">
+    <meta name="description" content="Prosocial behaviors benefit others, but what benefits do they hold for those who enact them? Prosociality can enhance the actor's well-being.">
     <meta name="dc.creator" content="Dakin, Brodie C.">
     <meta name="dc.creator" content="Tan, Nicholas P.">
     <meta name="dc.creator" content="Conner, Tamlin S.">
@@ -80,7 +80,7 @@ const htmlEx1 = `
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="SpringerLink">
     <meta property="og:title" content="The Relationship Between Prosociality, Meaning, and Happiness in Everyday Life - Journal of Happiness Studies">
-    <meta property="og:description" content="Prosocial behaviors benefit others, but what benefits do they hold for those who enact them? Prosociality can enhance the actor's well-being, yet whether it is one's sense of happiness or meaning that is impacted, and how this plays out in everyday life, has received limited attention. We address this gap in knowledge by examining how prosociality is related to daily meaning and happiness across two large daily diary studies in two countries. Study 1 (N&thinsp;=&thinsp;1140) revealed that changes in one's subjective sense of prosociality was uniquely associated with both daily meaning and happiness. Study 2 (N&thinsp;=&thinsp;217) found that self-reported prosocial behavior was also clearly linked to increases in daily meaning, and modestly associated with daily happiness. Altogether, our findings suggest that the subjective sense of prosociality is associated with meaning and happiness, and that performing prosocial acts may be particularly relevant to experiencing meaning.">
+    <meta property="og:description" content="Prosocial behaviors benefit others, but what benefits do they hold for those who enact them? Prosociality can enhance the actor's well-being.">
     <meta property="og:image" content="https://media.springernature.com/w200/springer-static/cover/journal/10902.jpg">
     <title>The Relationship Between Prosociality, Meaning, and Happiness in Everyday Life | SpringerLink</title>
     <link rel="shortcut icon" href="/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico">
