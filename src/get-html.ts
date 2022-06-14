@@ -21,6 +21,10 @@ export default function getHTML(url: string = defaultUrl): Promise<string> {
         let chunks = "";
         res.on("data", (chunk) => {
           chunks += chunk;
+          if (chunks.length > 1e6) {
+            res.destroy();
+            reject(new Error("HTML too large"));
+          }
         });
         res.on("end", () => resolve(chunks));
       })
