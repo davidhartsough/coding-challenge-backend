@@ -21,10 +21,5 @@ module.exports = {
   plugins: ["@typescript-eslint"],
   rules: {
     "import/extensions": "off",
-    // TODO: revisit
-    // "import/no-extraneous-dependencies": [
-    //   "error",
-    //   { devDependencies: ["src/**/*.test.ts"] },
-    // ],
   },
 };
