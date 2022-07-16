@@ -9,8 +9,8 @@ const defaultUrl = "https://davidhartsough.com/";
 
 /**
  * Get the HTML document text from a given URL.
- * @param url The URL to get the HTML document text from
- * @returns The HTML document of the page at the given URL as a string
+ * @param {string} url The URL to get the HTML document text from
+ * @returns {string} The HTML document of the page at the given URL as a string
  */
 export default function getHTML(url: string = defaultUrl): Promise<string> {
   return new Promise((resolve, reject) => {
