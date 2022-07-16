@@ -216,9 +216,9 @@ describe("get-metadata.ts", () => {
       title:
         "The Relationship Between Prosociality, Meaning, and Happiness in Everyday Life | SpringerLink",
       description:
-        "Prosocial behaviors benefit others, but what benefits do they hold for those who enact them? Prosociality can enhance the actor's well-being, yet whe",
-      keywords: "",
-      author: "",
+        "Prosocial behaviors benefit others, but what benefits do they hold for those who enact them? Prosociality can enhance the actor's well-being.",
+      keywords: null,
+      author: null,
       siteName: "SpringerLink",
     });
   });
@@ -229,19 +229,19 @@ describe("get-metadata.ts", () => {
         'Human behavior makes more sense when you understand "Anchor Beliefs" - Spencer Greenberg',
       description:
         "There's an important type of belief most of us have, which we call ",
-      keywords: "",
+      keywords: null,
       author: "Spencer Greenberg",
       siteName: "Spencer Greenberg",
     });
   });
   test("getMetadata(htmlEx3)", () => {
     expect(getMetadata(htmlEx3)).toEqual({
-      url: "",
+      url: null,
       title: "Moved Temporarily",
-      description: "",
-      keywords: "",
-      author: "",
-      siteName: "",
+      description: null,
+      keywords: null,
+      author: null,
+      siteName: null,
     });
   });
   test("getMetadata(htmlEx4)", () => {
@@ -250,20 +250,30 @@ describe("get-metadata.ts", () => {
       title: "David Hartsough",
       description:
         "David Hartsough is widely regarded as a happy human, drummer, developer, designer, wannabe psychologist/philosopher, and stuntman — more or less.",
-      keywords:
-        "david,hartsough,davidhartsough,human,drummer,developer,designer,psychologist,philosopher,stuntman",
+      keywords: [
+        "david",
+        "hartsough",
+        "davidhartsough",
+        "human",
+        "drummer",
+        "developer",
+        "designer",
+        "psychologist",
+        "philosopher",
+        "stuntman",
+      ],
       author: "David Hartsough",
       siteName: "David Hartsough",
     });
   });
   test("getMetadata(htmlEx5)", () => {
     expect(getMetadata(htmlEx5)).toEqual({
-      url: "",
-      title: "",
-      description: "",
-      keywords: "",
-      author: "",
-      siteName: "",
+      url: null,
+      title: null,
+      description: null,
+      keywords: null,
+      author: null,
+      siteName: null,
     });
   });
 });
