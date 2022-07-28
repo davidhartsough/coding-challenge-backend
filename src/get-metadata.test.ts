@@ -112,17 +112,17 @@ const htmlEx2 = `
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="https://www.spencergreenberg.com/xmlrpc.php">
-    <title>Human behavior makes more sense when you understand "Anchor Beliefs" - Spencer Greenberg</title>
+    <title>Human behavior makes more sense when you understand Anchor Beliefs - Spencer Greenberg</title>
     <link rel="alternate" type="application/rss+xml" title="Spencer Greenberg » Feed" href="https://www.spencergreenberg.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="Spencer Greenberg » Comments Feed" href="https://www.spencergreenberg.com/comments/feed/">
-    <link rel="alternate" type="application/rss+xml" title="Spencer Greenberg » Human behavior makes more sense when you understand "Anchor Beliefs" Comments Feed" href="https://www.spencergreenberg.com/2021/11/human-behavior-makes-more-sense-when-you-understand-anchor-beliefs/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Spencer Greenberg » Human behavior makes more sense when you understand Anchor Beliefs Comments Feed" href="https://www.spencergreenberg.com/2021/11/human-behavior-makes-more-sense-when-you-understand-anchor-beliefs/feed/">
     <link rel="canonical" href="https://www.spencergreenberg.com/2021/11/human-behavior-makes-more-sense-when-you-understand-anchor-beliefs/">
     <link rel="shortlink" href="https://wp.me/p1BFiX-Fe">
     <meta name="author" content="Spencer Greenberg">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Human behavior makes more sense when you understand "Anchor Beliefs"">
+    <meta property="og:title" content="Human behavior makes more sense when you understand Anchor Beliefs">
     <meta property="og:url" content="https://www.spencergreenberg.com/2021/11/human-behavior-makes-more-sense-when-you-understand-anchor-beliefs/">
-    <meta property="og:description" content="There's an important type of belief most of us have, which we call "Anchor Beliefs." These beliefs are, by definition, those beliefs we hold that are almost impossible to change. …">
+    <meta property="og:description" content="There's an important type of belief most of us have, which we call Anchor Beliefs.">
     <meta property="article:published_time" content="2021-11-21T15:31:00+00:00">
     <meta property="article:modified_time" content="2021-12-24T23:25:15+00:00">
     <meta property="og:site_name" content="Spencer Greenberg">
@@ -131,7 +131,7 @@ const htmlEx2 = `
     <meta property="og:image:height" content="590">
     <meta property="og:image:alt" content="Photo by Kris-Mikael Krister on Unsplash">
     <meta property="og:locale" content="en_US">
-    <meta name="twitter:text:title" content="Human behavior makes more sense when you understand "Anchor Beliefs"">
+    <meta name="twitter:text:title" content="Human behavior makes more sense when you understand Anchor Beliefs">
     <meta name="twitter:image" content="https://i0.wp.com/www.spencergreenberg.com/wp-content/uploads/2021/12/anchor.jpg?fit=1200%2C590&amp;ssl=1&amp;w=640">
     <meta name="twitter:image:alt" content="Photo by Kris-Mikael Krister on Unsplash">
     <meta name="twitter:card" content="summary_large_image">
@@ -226,9 +226,9 @@ describe("get-metadata.ts", () => {
     expect(getMetadata(htmlEx2)).toEqual({
       url: "https://www.spencergreenberg.com/2021/11/human-behavior-makes-more-sense-when-you-understand-anchor-beliefs/",
       title:
-        'Human behavior makes more sense when you understand "Anchor Beliefs" - Spencer Greenberg',
+        'Human behavior makes more sense when you understand Anchor Beliefs - Spencer Greenberg',
       description:
-        "There's an important type of belief most of us have, which we call ",
+        "There's an important type of belief most of us have, which we call Anchor Beliefs.",
       keywords: null,
       author: "Spencer Greenberg",
       siteName: "Spencer Greenberg",
